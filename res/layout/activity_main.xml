@@ -8,4 +8,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.basgra.MainActivity" >
 
+    <Button
+        android:id="@+id/viewhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addstars"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:text="View Home" />
+
+    <Button
+        android:id="@+id/addstars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewhome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:text="Add stars" />
+
+    <Button
+        android:id="@+id/addtrees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addstars"
+        android:layout_below="@+id/addstars"
+        android:layout_marginTop="76dp"
+        android:text="Add Tree" />
+
 </RelativeLayout>
